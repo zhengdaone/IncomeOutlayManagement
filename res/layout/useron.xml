@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lightgray" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/white"
+        android:layout_marginTop="30dp">
+        <TextView 
+            android:id="@+id/user"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="aa"
+            android:textSize="30dp"
+            android:gravity="center"/>
+        <TextView 
+            android:layout_toEndOf="@id/user"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="已登录"
+            android:textColor="@drawable/green"
+            android:textSize="25dp"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="2dp">
+        <TextView
+                android:id="@+id/plan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="我的计划"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"/>
+    </RelativeLayout>
+
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="80dp" 
+        android:layout_marginTop="150dp">
+        
+        <TableRow 
+            android:gravity="center">
+        <Button 
+            android:id="@+id/backup"
+            android:text="备份"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/log"/>
+         <Button 
+            android:id="@+id/recovery"
+            android:text="恢复"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/reg"/>
+        </TableRow>
+    </TableLayout>
+    
+         <TextView 
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="退出登录"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+</LinearLayout>

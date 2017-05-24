@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TableLayout 
+       android:id="@+id/classify"
+       android:layout_width="match_parent"
+       android:layout_height="130dp"
+       android:background="@drawable/blue">
+        <TableRow>   
+  
+        <TextView   
+            android:id="@+id/food"
+            android:text="餐饮" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />   
+  
+        <TextView   
+            android:id="@+id/cloth"
+            android:text="衣物" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+        <TextView   
+            android:id="@+id/netshopping"
+            android:text="网购" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />  
+        <TextView   
+            android:id="@+id/topup"
+            android:text="充值" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+  
+    </TableRow>
+      <TableRow>   
+  
+        <TextView   
+            android:id="@+id/traffic"
+            android:text="交通" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />   
+  
+        <TextView   
+            android:id="@+id/intercourse"
+            android:text="应酬" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+        <TextView   
+            android:id="@+id/daily"
+            android:text="日用" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />  
+        <TextView   
+            android:id="@+id/house"   
+            android:text="住房" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+  
+    </TableRow>
+    
+         <TableRow>   
+  
+        <TextView   
+            android:id="@+id/gift"
+            android:text="送礼" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="2dp"
+            android:padding="3dp" />   
+  
+        <TextView   
+            android:id="@+id/standtreat"
+            android:text="请客" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="2dp"
+            android:padding="3dp" />
+        <TextView   
+            android:id="@+id/entertainment"
+            android:text="娱乐" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+
+            android:padding="3dp" />  
+        <TextView   
+            android:id="@+id/inother"
+            android:text="其他" 
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/btn_press"
+            android:padding="3dp" />
+  
+    </TableRow>
+   </TableLayout>
+   
+  
+   
+</RelativeLayout>

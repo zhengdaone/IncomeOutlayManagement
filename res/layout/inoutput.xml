@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/title"
+             android:id="@+id/title"/>
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+<RelativeLayout 
+    android:id="@+id/in"
+    android:layout_width="180dp"
+    android:layout_height="match_parent">
+        <Button
+            android:id="@+id/outbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/inoutbubg"
+            android:text="支出" />
+        </RelativeLayout>
+        <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_toEndOf="@id/in">
+        <Button
+            android:id="@+id/inbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/inoutbubg"
+            android:text="收入" />
+</RelativeLayout>
+    </RelativeLayout> 
+    
+    <RelativeLayout 
+        android:id="@+id/cashdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/button">
+        <TextView
+                android:id="@+id/cashtext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ddf4f4"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="1dp"
+                android:textSize="30dp"
+                android:textColor="@drawable/black"
+                android:text="收入" android:layout_alignParentEnd="true" android:layout_alignParentStart="true"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/keyb"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/darkgray">
+    <TableLayout 
+        android:id="@+id/tablay"
+        android:layout_alignParentBottom="true"
+        android:layout_width="270dp"
+        android:layout_height="match_parent"
+        >
+        <TableRow>
+  
+        <TextView   
+            android:id="@+id/seven"
+            android:text="7" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />   
+  
+        <TextView   
+            android:id="@+id/eight"
+            android:text="8" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:padding="3dp" />
+        <TextView   
+            android:id="@+id/nine"
+            android:text="9" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />  
+  
+    </TableRow>
+        <TableRow>
+  
+        <TextView   
+            android:id="@+id/four"
+            android:text="4" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+  
+        <TextView   
+            android:id="@+id/five"
+            android:text="5" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+        <TextView   
+            android:id="@+id/six"
+            android:text="6" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />  
+  
+    </TableRow>
+         <TableRow>
+  
+        <TextView   
+            android:id="@+id/one"
+            android:text="1" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />   
+  
+        <TextView   
+            android:id="@+id/two"
+            android:text="2" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+        <TextView   
+            android:id="@+id/three"
+            android:text="3" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />  
+  
+    </TableRow>
+         <TableRow>
+  
+        <TextView   
+            android:id="@+id/zero"
+            android:text="0" 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />   
+  
+        <TextView   
+            android:id="@+id/point"
+            android:text="." 
+            android:gravity="center_horizontal"
+            android:textSize="43dp"
+            android:textColor="@drawable/black"
+            android:layout_width="89dp"
+            android:layout_height="59dp"
+            android:background="@drawable/btn_press"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp"/>
+             <TextView
+                     android:id="@+id/del"
+                     android:text="删除"
+                     android:gravity="center_horizontal"
+                     android:textSize="41dp"
+                     android:textColor="@drawable/black"
+                     android:layout_width="89dp"
+                     android:layout_height="59dp"
+                     android:background="@drawable/btn_press"
+                     android:layout_marginEnd="1dp"
+                     android:padding="3dp"
+                     android:layout_gravity="center_horizontal"/>
+
+    </TableRow>
+    </TableLayout>
+    <LinearLayout 
+        android:id="@+id/mclass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@id/tablay">
+        
+        <TextView 
+            android:id="@+id/payway"
+            android:text="现金"
+            android:textSize="30dp"
+            android:textColor="@drawable/black"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/btn_press"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/cleanlay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@id/tablay"
+        android:layout_below="@id/mclass">
+        
+        <TextView 
+            android:id="@+id/clean"
+            android:text="清空"
+            android:textSize="35dp"
+            android:textColor="@drawable/black"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/btn_press"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/confirmlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/tablay"
+        android:layout_below="@id/cleanlay">
+        
+        <TextView 
+            android:id="@+id/confirm"
+            android:text="确定"
+            android:textSize="47dp"
+            android:textColor="@drawable/black"
+            android:gravity="center_horizontal"
+            android:ems="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/btn_press"/>
+    </LinearLayout>
+    </RelativeLayout>
+    
+
+   <TableLayout 
+       android:id="@+id/aaa"
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       
+       android:layout_above="@id/keyb"
+       >
+  
+       <TableRow >
+           <TextView   
+            android:id="@+id/inorout"
+            android:text="消费方式："
+            android:textColor="@drawable/black"
+            android:gravity="center_horizontal"
+            android:textSize="28dp"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+            
+            <TextView   
+            android:id="@+id/inouttype"
+            android:text="其他" 
+            android:gravity="center_horizontal"
+            android:textSize="28dp"
+            android:textColor="@drawable/black"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white"
+            android:layout_marginBottom="1dp"
+            android:padding="3dp" />
+       </TableRow>
+       
+       <TableRow >
+           <TextView   
+            android:id="@+id/inoroutnum"
+            android:text="消费金额：" 
+            android:gravity="center_horizontal"
+            android:textSize="28dp"
+            android:textColor="@drawable/black"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white"
+            android:padding="3dp" />
+            
+            <TextView
+                    android:id="@+id/incomenum"
+                    android:text="0"
+                    android:gravity="center_horizontal"
+                    android:textSize="28dp"
+                    android:textColor="@drawable/black"
+                    android:maxLength="9"
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/white"
+                    android:padding="3dp"/>
+       </TableRow>
+   </TableLayout>
+      <FrameLayout 
+       android:id="@+id/inout_container"
+       android:layout_above="@id/aaa"
+       android:layout_below="@id/cashdisplay"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/darkgray"></FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <drawable name="black">#000000</drawable>
+    <drawable name="blue">#00FFFF</drawable>
+    <drawable name="darkgray">#CCCCCC</drawable>
+    <drawable name="green">#3eff21</drawable>
+    <drawable name="lightgray">#F7F7F7</drawable>
+    <drawable name="purple">#7a2dbc</drawable>
+    <drawable name="red">#fb0409</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">IncomeOutlayManagement</string>
+    <string name="cash">现金</string>
+    <string name="credit">信用卡</string>
+    <string name="deposit">储蓄卡</string>
+    <string name="ebank">网银</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Titleground">  
+        <item name="android:background">#ff8f26</item>  
+    </style>
+    <style name="titleBarStyle" parent="android:Theme">  
+     <item name="android:windowTitleSize">50dp</item><!-- 原始标题栏的高度 -->  
+     <item name="android:padding">0dp</item><!-- 使新的标题栏完全延伸到对齐到原始标题栏的两边 -->  
+     <item name="android:windowTitleBackgroundStyle">@style/Titleground</item>
+</style>
+</resources>
